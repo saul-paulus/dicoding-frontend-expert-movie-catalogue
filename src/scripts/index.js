@@ -1,1 +1,3 @@
-console.log("cek");
+import 'regenerator-runtime'
+
+console.log('cek')
