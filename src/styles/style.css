@@ -79,7 +79,7 @@ main {
   min-height: 100%;
 }
 
-.content .content__heading {
+.content .content_heading {
   font-weight: normal;
 }
 
@@ -105,15 +105,15 @@ main {
   overflow: hidden;
 }
 
-.movie-item__header {
+.movie-item_header {
   position: relative;
 }
 
-.movie-item .movie-item__header .movie-item__header__poster {
+.movie-item .movie-item_header .movie-item_header_poster {
   width: 100%;
 }
 
-.movie-item .movie-item__header .movie-item__header__rating {
+.movie-item .movie-item_header .movie-item_header_rating {
   position: absolute;
   padding: 8px;
   bottom: 20px;
@@ -124,26 +124,26 @@ main {
 }
 
 .movie-item
-  .movie-item__header
-  .movie-item__header__rating
-  .movie-item__header__rating__score {
+  .movie-item_header
+  .movie-item_header_rating
+  .movie-item_header_rating_score {
   margin-left: 10px;
 }
 
-.movie-item .movie-item__content {
+.movie-item .movie-item_content {
   padding: 16px;
 }
 
-.movie-item .movie-item__content h3 {
+.movie-item .movie-item_content h3 {
   margin: 0 0 10px 0;
 }
 
-.movie-item .movie-item__content h3 a {
+.movie-item .movie-item_content h3 a {
   color: #db0000;
   text-decoration: none;
 }
 
-.movie-item .movie-item__content p {
+.movie-item .movie-item_content p {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -164,12 +164,12 @@ main {
   gap: 18px 16px;
 }
 
-.movie .movie__poster {
+.movie .movie_poster {
   width: 100%;
   max-width: 400px;
 }
 
-.movie .movie__info h4 {
+.movie .movie_info h4 {
   margin: 8px 0;
 }
 
