@@ -8,6 +8,37 @@
     <title>Movie Catalogue</title>
   </head>
   <body>
-    <h1>Movie Catalogue</h1>
+    <!--membuat header-->
+    <header class="app-bar">
+      <div class="app-bar_menu">
+        <button id="hamburgerButton">☰</button>
+      </div>
+      <div class="app-bar_brand">
+        <h1>Movie Catalogue</h1>
+      </div>
+
+      <nav id="navigationDrawer" class="app-bar_navigation">
+        <ul>
+          <li><a href="#/now-playing">Now Playing</a></li>
+          <li><a href="#/upcoming">Upcoming</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Akhir membuat header-->
+
+    <!--membuat main-->
+    <main id="mainContent"></main>
+    <!--Akhir membuat main-->
+
+    <!--Membuat footer-->
+    <footer>
+      <p>
+        All data obtained from
+        <a href="https://themoviedb.org" target="_blank" role="noreferrer"
+          >TheMovieDB</a
+        >
+      </p>
+    </footer>
+    <!--Akhir membuat footer-->
   </body>
 </html>
